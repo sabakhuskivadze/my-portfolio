@@ -3,9 +3,7 @@ import { useState } from 'react';
 import styles from './page.module.css'
 import { FloatButton } from 'antd';
 import { Button, Drawer } from 'antd';
-import { ST } from 'next/dist/shared/lib/utils';
-import { relative } from 'path';
-export default () => {
+export default function Header()  {
   const [open, setOpen] = useState(false);
 
   const showDrawer = () => {

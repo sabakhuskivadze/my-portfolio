@@ -1,9 +1,8 @@
 "use client"
-import { ST } from 'next/dist/shared/lib/utils'
 import styles from './page.module.css'
 import { Progress } from 'antd';
 import { Carousel } from 'antd';
-export default () => {
+export default function Main()  {
   const onChange = (currentSlide: number) => {
     console.log(currentSlide);
   };
